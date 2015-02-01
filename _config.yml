@@ -1,0 +1,10 @@
+# Site settings
+title: TingPing's blog
+email: tingping@fedoraproject.org
+description: ""
+baseurl: ""
+url: "https://tingping.github.io" 
+github_username: TingPing
+
+# Build settings
+markdown: kramdown
