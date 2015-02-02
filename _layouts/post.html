@@ -12,4 +12,14 @@ layout: default
     {{ content }}
   </article>
 
+  {% if site.related_posts.length > 0 %}
+    <br>
+    <h4>Related Posts</h4>
+    <ul>
+      {% for post in site.related_posts limit:3 %}
+        <li>{{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
 </div>
