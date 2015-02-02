@@ -1,10 +1,6 @@
-# Site settings
 title: TingPing's blog
 email: tingping@fedoraproject.org
-description: ""
-baseurl: ""
-url: "https://tingping.github.io" 
+url: blog.tingping.se
 github_username: TingPing
 
-# Build settings
 markdown: kramdown
