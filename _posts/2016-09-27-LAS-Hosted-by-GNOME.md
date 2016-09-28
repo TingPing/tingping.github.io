@@ -39,7 +39,7 @@ is certainly on my todo list.
 ### Builder Integration
 
 I have occasionally contributed to [GNOME Builder](https://wiki.gnome.org/Apps/Builder) and as an IDE a difficult task is to
-sanely parse and modify an Autotools projects. Meson unlike Autotools exposes JSON for compilation flags and targets which
+sanely parse and modify an Autotools projects. Meson unlike Autotools exposes JSON data for compilation flags and targets which
 can allow tools to get actually usable information. I have already started work integrating this [in a branch](https://git.gnome.org/browse/gnome-builder/log/?h=wip/tingping/meson)
 that is a work in progress but already it can build and run projects. The internal API of Builder is a bit Autotools
 focused in this area, there are some Python binding problems, and we need to work with Meson to expose more information
@@ -48,13 +48,13 @@ but it should land this cycle.
 ## IRC
 
 I did briefly discuss IRC at a [BoF](https://en.wikipedia.org/wiki/Birds_of_a_feather_(computing)) mentioning the current state
-of initiatives like [ircv3](http://ircv3.net). The end conclusion is just that we need to get in contact with the infrastructure
+of initiatives like [IRCv3](http://ircv3.net). The end conclusion is just that we need to get in contact with the infrastructure
 of GNOME to push for more modern server features and possibly expose things like chat history which is already doable at the
 protocol level.
 
 ## Monetization
 
-There was a Bof over how to monitize applications and I was honestly disappointed by this discussion. Technologies like Flatpak
+There was a BoF over how to monitize applications and I was honestly disappointed by this discussion. Technologies like Flatpak
 and the future website of FlatHub, a hosted service for building and distributing flatpaks, help this but I don't feel like any new
 useful strategies were brought up and the issue of getting the community at large to *want* to donate/pay, especially for existing
 projects, is a bigger blocker than some realize. This is just something that will need to be discussed further.
