@@ -4,3 +4,11 @@ url: tingping.github.io
 github_username: TingPing
 
 markdown: kramdown
+gems:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jekyll-feed
+
+feed:
+  description: Development blog of TingPing
+

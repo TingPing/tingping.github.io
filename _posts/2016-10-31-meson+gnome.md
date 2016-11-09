@@ -7,7 +7,7 @@ tags: gnome meson build linux builder gnome-builder build-system
 ---
 
 This past month I have been doing a lot of work improving Meson for the Gnome ecosystem so as
-a follow up to my [previous post](/linux/2016/09/27/LAS-Hosted-by-GNOME.html) I thought I would
+a follow up to my [previous post](https://tingping.github.io/linux/2016/09/27/LAS-Hosted-by-GNOME.html) I thought I would
 mention some of that progress and what still needs to be done.
 
 <!--more-->
