@@ -2,8 +2,7 @@
 layout: post
 title: Libre Application Summit hosted by GNOME
 date: 2016-09-27 18:00:00
-categories: linux
-tags: gnome event conference
+tags: [gnome event conference linux]
 ---
 
 The first [Libre Application Summit](http://las.gnome.org/) in Portland just finished this week and I had the chance to go.

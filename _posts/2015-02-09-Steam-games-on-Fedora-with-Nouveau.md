@@ -2,8 +2,7 @@
 layout: post
 title: Steam games on Fedora with Nouveau
 date: 2015-02-09 18:00:00
-categories: howto linux
-tags: fedora
+tags: [fedora howto linux]
 ---
 
 Steam may not support Fedora nor Nouveau drivers, but surely it can work.
