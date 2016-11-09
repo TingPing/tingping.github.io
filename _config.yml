@@ -1,6 +1,8 @@
 title: TingPing's blog
+description: Development blog of TingPing
+author: Patrick Griffis
 email: tingping@fedoraproject.org
-url: tingping.github.io
+url: https://tingping.github.io
 github_username: TingPing
 
 markdown: kramdown
@@ -8,7 +10,3 @@ gems:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-feed
-
-feed:
-  description: Development blog of TingPing
-
