@@ -64,5 +64,5 @@ This process will likely be automated by Gnome-Software at some point. The `flat
 doesn't depend upon Gtk so it will not automatically detect your theme.
 
 If you use the *Global Dark Theme* option in `gnome-tweak-tool` it will not work as that
-simply writes to `settings.ini` which available isn't in the sandbox. Use dark versions
+simply writes to `settings.ini` which isn't available in the sandbox. Use dark versions
 of the theme instead if they exist.
