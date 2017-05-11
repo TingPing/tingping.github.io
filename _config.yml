@@ -12,3 +12,6 @@ gems:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
