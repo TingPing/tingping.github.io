@@ -6,7 +6,8 @@ url: https://tingping.github.io
 github_username: TingPing
 google_analytics: UA-17775794-13
 theme: minima
-
+disqus:
+  shortname: tingping
 markdown: kramdown
 gems:
   - jekyll-sitemap
