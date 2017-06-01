@@ -63,6 +63,10 @@ They can be searched with `flatpak remote-ls flathub | grep org.freedesktop.Plat
 This process will likely be automated by Gnome-Software at some point. The `flatpak` tool
 doesn't depend upon Gtk so it will not automatically detect your theme.
 
+Themes are picked up via GtkSettings, which means you require a settings-daemon running to
+set this. On GNOME this will already be running but for other desktops you can run
+`gsd-xsettings` directly in your libexec directory provided by `gnome-settings-daemon`.
+
 If you use the *Global Dark Theme* option in `gnome-tweak-tool` it will not work as that
 simply writes to `settings.ini` which isn't available in the sandbox. Use dark versions
 of the theme instead if they exist.
