@@ -9,7 +9,7 @@ theme: minima
 disqus:
   shortname: tingping
 markdown: kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-mentions
   - jekyll-feed
