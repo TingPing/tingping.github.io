@@ -22,6 +22,8 @@ Here are some links to other things I do or have created:
 - [Gnome-MPV](https://github.com/gnome-mpv/gnome-mpv)
 - [Meson](https://github.com/mesonbuild/meson)
 - [Lutris](https://github.com/lutris/lutris)
+- [Flatpak](https://github.com/flatpak/flatpak)
+- [GLib](https://github.com/gnome/glib)
 
 ## Packages
 - [Flatpak Packages](https://github.com/TingPing/flatpak-packages)
