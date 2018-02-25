@@ -6,6 +6,8 @@ permalink: /about/
 
 This is just a blog about random things others might find useful or interesting.
 
+Visit [Donate](/donate) if you would like to support me.
+
 Here are some links to other things I do or have created:
 
 ## Projects I maintain
