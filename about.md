@@ -30,6 +30,7 @@ Here are some links to other things I do or have created:
 ## Packages
 - [Flatpak Packages](https://github.com/TingPing/flatpak-packages)
 - [Flathub Packages](https://github.com/flathub)
+- [GVSBuild](https://github.com/wingtk/gvsbuild)
 - [Arch Linux Packages](https://aur.archlinux.org/packages/?SeB=m&K=TingPing)
 - [Personal Fedora Repo](https://dl.tingping.se/fedora/repoview/)
 - [Public Copr Packages](https://copr.fedoraproject.org/coprs/tingping/)
