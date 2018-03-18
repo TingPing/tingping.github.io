@@ -66,6 +66,7 @@ So now that we defined an extension point lets make an extension:
   "separate-locales": false,
   "appstream-compose": false,
   "build-options": {
+    "prefix": "/app/extensions/Perl",
     "env": {
       "PATH": "/app/extensions/Perl/bin:/app/bin:/usr/bin"
     }
