@@ -15,9 +15,6 @@ future reference.
 All applications in my repository are considered experimental, are likely built
 directly from git, and may or may not work or be supported.
 
-Forgive the current version of this websites theme not rendering the table
-very well, that is fixed in the next version.
-
 | Console | Project | Application ID | Repository |
 |---------|---------|----------------|------------|
 | Nintendo | [Nestopia-UE](http://0ldsk00l.ca/nestopia/) | ca._0ldsk00l.Nestopia | [flathub](https://flathub.org) |
