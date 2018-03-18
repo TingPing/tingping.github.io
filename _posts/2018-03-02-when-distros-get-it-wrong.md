@@ -1,7 +1,6 @@
 ---
 layout: post
 title: When distributions get it wrong
-date: 2018-03-02 12:00:00
 tags: [linux]
 ---
 

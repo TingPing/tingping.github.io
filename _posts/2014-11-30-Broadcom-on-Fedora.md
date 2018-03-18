@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Broadcom on Fedora
-date: 2014-11-30 18:00:00
 tags: [fedora howto linux]
 ---
 A few months ago I purchased a [Broadcom BCM4322 wifi card](http://www.amazon.com/gp/product/B00AEEL1BY/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Flatpak now supports themes
-date: 2017-05-11 12:00:00
 tags: [linux flatpak gtk themes]
 ---
 

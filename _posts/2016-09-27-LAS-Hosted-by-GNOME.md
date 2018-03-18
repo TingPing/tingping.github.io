@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Libre Application Summit hosted by GNOME
-date: 2016-09-27 18:00:00
 tags: [gnome event conference linux]
 ---
 

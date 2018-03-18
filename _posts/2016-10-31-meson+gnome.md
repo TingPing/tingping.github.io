@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Meson + Gnome Status Update
-date: 2016-10-31 18:00:00
 tags: [gnome meson build linux builder gnome-builder build-system]
 ---
 

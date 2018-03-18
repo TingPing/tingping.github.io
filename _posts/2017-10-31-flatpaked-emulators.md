@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Status of emulators Flatpak'd
-date: 2017-10-31 12:00:00
 tags: [flatpak]
 ---
 

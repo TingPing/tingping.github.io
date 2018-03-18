@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Steam games on Fedora with Nouveau
-date: 2015-02-09 18:00:00
 published: false
 tags: [fedora howto linux]
 ---
