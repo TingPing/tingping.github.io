@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using host Nvidia driver with Flatapk
+title: Using host Nvidia driver with Flatpak
 tags: [flatpak]
 ---
 
