@@ -20,6 +20,6 @@ Thankfully there is a hacky solution of using a custom [EDID](https://en.wikiped
     1. Option -> Recalc Checksum
     2. File -> Save EDID Binary (to `~/modified_edid.bin` for example)
     3. Copy to firmware directory: `sudo install -Dm644 ~/modified_edid.bin /usr/lib/firmware/edid/modified_edid.bin`
-    4. Configure kernel to use it. For example on Fedora: `sudo grubby --args='drm_kms_helper.edid_firmware=edid/modified_edid.bin' --update-kernel=DEFAULT`
+    4. Configure kernel to use it. For example on Fedora: `sudo grubby --args='drm.edid_firmware=edid/modified_edid.bin' --update-kernel=DEFAULT`
         - Note that this only changes the current kernel so you can boot into older kernels (or edit in the grub menu) if it fails and revert this with `grubby --remove-args`
   5. Reboot
