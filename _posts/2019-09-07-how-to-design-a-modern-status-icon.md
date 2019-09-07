@@ -114,7 +114,7 @@ Ok I think that covers the basics lets look at the real world solutions:
   This announcement is clearly why I am writing this as I hope they will consider some of the sandboxing cases and better expose if a tray
   is working in the future. I just do not want to see past mistakes repeated and for adoption to happen before they are solved.
 
-  P.S. Don't use the `org.x` namespace.
+  P.S. Don't use the `org.x` namespace and don't do blocking IO.
 
 ### - What I want to see (or maybe create)
 
