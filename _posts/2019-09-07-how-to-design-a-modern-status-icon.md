@@ -63,7 +63,8 @@ Ok I think that covers the basics lets look at the real world solutions:
   feature-set for the most part though menu handling is overly complex.
 
   There are quite a few problems with this implementation however. It is designed to silently fail by default; It falls back to X11 automatically and unless you override
-  the fallback handling XEmbed failing yourself (maybe literally nobody does) you will not know it did.
+  the fallback handling XEmbed failing yourself (maybe literally nobody does) you will not know it did. It does tell if you if the DBus portion is connected but as long
+  as it fallsback you don't know what is going on.
 
   It isn't quite sandbox friendly because it does require talking to an insecure service and it allows referencing icons by path. However it doesn't require bus
   name ownership which is a positive.
@@ -121,6 +122,10 @@ Ok I think that covers the basics lets look at the real world solutions:
   - Supports features mentioned above
   - Backed by DBus service
     - This must be a robust service, validating the sent icon data in a sandbox
+      - All icons must be sent as data or icon-names, no paths allowed
     - Not require well-known name ownership outside of app-id namespace
+      - Uniqueness is up to the application already
     - Support more minimal menus than DBusMenu (via GMenu IMO, but anything similar)
+    - Be exposed by `xdg-desktop-portal` which handles permissions
   - Library that exposes if the tray is working or not
+    - Also don't fallback to XEmbed, at least not silently
