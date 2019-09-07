@@ -5,8 +5,8 @@ tags: [linux]
 ---
 
 So the year is 2019 and people still use system trays on their desktops. I'm not going to get into
-if that is good or bad but lets try to make an API/implementation to sanely use them. I hope this is
-somewhat informative to developers using or implementing status icons.
+if that is good or bad but lets discuss an impelemtnation to sanely use them and what existing ones
+get wrong. I hope this is somewhat informative to developers using or implementing status icons.
 
 <!--more-->
 
@@ -107,7 +107,7 @@ Ok I think that covers the basics lets look at the real world solutions:
 
   It has all of the sandbox problems of StatusNotifier nearly copy paste. It requires name ownership, it uses your PID in said ownership, etc.
 
-  Lastly it does not expose as many features as the previous solutions as you can only set an icon, label, and tooltip. I understand why to a degree
+  In the end it does not expose as many features as the previous solutions as you can only set an icon, label, and tooltip. I understand why to a degree
   for menus because libdbusmenu is seriously evil but they could have went a more minimal approach and reused GMenu in GLib which perfectly
   handles exporting a menu over DBus.
 
