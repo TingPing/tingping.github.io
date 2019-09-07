@@ -85,7 +85,7 @@ Ok I think that covers the basics lets look at the real world solutions:
   > where PID is the process id of the application and ID is an arbitrary numeric unique identifier between different instances registered by the same application.
 
   So this bad on a few levels. For one it requires name ownership in the KDE namespace which I personally do not understand why. Flatpak blocks all ownership except for your app-id.
-  I'm not even sure a unique name is required at all.
+  I'm not even sure a well-known name is required at all.
 
   Secondly it requires putting your PID in the name which is a no-go for any PID namespace on Linux as they will almost always have the same values inside the sandbox.
 
@@ -121,6 +121,6 @@ Ok I think that covers the basics lets look at the real world solutions:
   - Supports features mentioned above
   - Backed by DBus service
     - This must be a robust service, validating the sent icon data in a sandbox
-    - Not require unique name ownership outside of app-id namespace
+    - Not require well-known name ownership outside of app-id namespace
     - Support more minimal menus than DBusMenu (via GMenu IMO, but anything similar)
   - Library that exposes if the tray is working or not
