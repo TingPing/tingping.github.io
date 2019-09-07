@@ -5,7 +5,7 @@ tags: [linux]
 ---
 
 So the year is 2019 and people still use system trays on their desktops. I'm not going to get into
-if that is good or bad but lets discuss an impelemtnation to sanely use them and what existing ones
+if that is good or bad but lets discuss an implementation to sanely use them and what existing ones
 get wrong. I hope this is somewhat informative to developers using or implementing status icons.
 
 <!--more-->
