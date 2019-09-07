@@ -12,25 +12,25 @@ get wrong. I hope this is somewhat informative to developers using or implementi
 
 Lets start with some high level goals:
 
-1. Don't use X11
+- Don't use X11
 
    I'll start with this because its simple and everybody knows it by now. If you want to set a tray you can't
    use X11 because not everybody uses X11. So you need a different solution and on Linux that is a DBus service
    that applications talk to.
 
-2. Safely handle and expose if the tray works
+- Safely handle and expose if the tray works
 
    There are always going to situations where the tray will not work such as using a desktop that doesn't support
    it or bugs like the service crashing and going away. This should always be reported to the application as soon
    as possible as this avoids issues like an application having a hide window feature but no tray to show it.
 
-3. Be designed for a sandboxed future
+- Be designed for a sandboxed future
 
    We are now at a point where desktop software is getting sandboxed so that means certain actions are limited such
    as reading/writing files on the host, talking to or owning arbitrary DBus names, having a PID that means anything
    to the host, etc. On top of that applications should expect a permission system where they are denied using a tray.
 
-4. Recommended features
+- Recommended features
 
    This is more opinionated but I'd say you need to support:
 
@@ -41,7 +41,7 @@ Lets start with some high level goals:
 
 Ok I think that covers the basics lets look at the real world solutions:
 
-- GtkStatusIcon (GTK)
+### - GtkStatusIcon (GTK)
 
   - ❌ Uses X11
   - ✔️ It does expose if the tray is "embedded" or not (almost nobody listens to this).
@@ -52,7 +52,7 @@ Ok I think that covers the basics lets look at the real world solutions:
   everybody has lived with for years and it got the job done. Since it no longer exists in GTK4
   due to not being portable a replacement had to come.
 
-- AppIndicator (Canonical)
+### - AppIndicator (Canonical)
 
   - ✔️ Uses DBus (but falls back to X11)
   - ❌ Failure not exposed by default
@@ -70,7 +70,7 @@ Ok I think that covers the basics lets look at the real world solutions:
 
   Lastly the library is entirely unmaintained for many years and libdbusmenu is just disgusting, so its not something I'd recommend in new code.
 
-- StatusNotifier (KDE)
+### - StatusNotifier (KDE)
 
   - ✔️ Uses DBus
   - ✔️ You can detect failure if you try
@@ -94,7 +94,7 @@ Ok I think that covers the basics lets look at the real world solutions:
 
   I'd say it is the best solution we have but it needs improving.
 
-- StatusIcon (Linux Mint)
+### - StatusIcon (Linux Mint)
 
   - ✔️ Uses DBus (but falls back to X11)
   - ❌ Failure not exposed
@@ -116,7 +116,7 @@ Ok I think that covers the basics lets look at the real world solutions:
 
   P.S. Don't use the `org.x` namespace.
 
-- What I want to see (or maybe create)
+### - What I want to see (or maybe create)
 
   - Supports features mentioned above
   - Backed by DBus service
