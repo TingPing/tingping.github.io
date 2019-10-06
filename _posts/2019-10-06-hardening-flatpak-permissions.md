@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hardening Flatpak permissions over time
+title: Hardening Flatpak Permissions Over Time
 tags: [flatpak]
 ---
 
@@ -13,7 +13,7 @@ of how over time many permissions now have secure alternatives.
 For this example I'll be using [Pithos](https://pithos.github.io) which is an application I maintain.  
 It is an online radio player for Pandora.com.
 
-These are the Flatpak permissions used when the application from 2 years ago:
+These are the Flatpak permissions used for the application 2 years ago:
 
 ```json
   "finish-args": [
