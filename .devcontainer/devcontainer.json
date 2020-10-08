@@ -1,0 +1,12 @@
+{
+	"name": "Jekyll (Community)",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"extensions": [],
+	"forwardPorts": [4000],
+	"postCreateCommand": "bundle install"
+}
