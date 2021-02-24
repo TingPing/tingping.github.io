@@ -45,7 +45,7 @@ There will be follow up blog posts going more into the technical details of each
 
 ## Release Schedule
 
-The plan is to release libsoup 3.0 with the GNOME 42 release in September. However we will be releasing
+The plan is to release libsoup 3.0 with the GNOME 41 release in September. However we will be releasing
 a preview build with the GNOME 40 release for developers to start testing against and porting to. All feedback
 would be welcomed.
 
