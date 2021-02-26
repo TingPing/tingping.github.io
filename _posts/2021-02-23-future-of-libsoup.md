@@ -59,7 +59,9 @@ releases will happen.
 
 ## How to Help
 
-You can build the current [head of libsoup](https://gitlab.gnome.org/GNOME/libsoup) to test now. Installing it does not conflict with version 2.x however GObject-Introspection based applications may accidentally import the wrong version (Python for example needs `gi.require_version('Soup', '2.4')` for the old API) and you cannot load both versions in the same process.
+You can build the current [head of libsoup](https://gitlab.gnome.org/GNOME/libsoup) to test now.
+
+Installing it does not conflict with version 2.x however GObject-Introspection based applications may accidentally import the wrong version (Python for example needs `gi.require_version('Soup', '2.4')` and GJS needs `imports.gi.versions.Soup = "2.4";` for the old API) and you cannot load both versions in the same process.
 
 A [migration guide](https://libsoup.org/ch02.html) has been written to cover some of the common questions as well as improved documentation and guides in general.
 
