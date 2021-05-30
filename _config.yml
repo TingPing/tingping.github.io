@@ -5,8 +5,15 @@ email: tingping@fedoraproject.org
 url: https://blog.tingping.se
 github_username: TingPing
 timezone: America/New_York
-theme: minima
-remote_theme: jekyll/minima
+remote_theme: jekyll/minima@master
+minima:
+  skin: dark
+  social_links:
+    github: TingPing
+    twitter: t1ngp1ng
+    gitlab:
+      - username: TingPing
+        instance: gitlab.gnome.org
 disqus:
   shortname: tingping
 markdown: kramdown
@@ -15,6 +22,7 @@ plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
 exclude:
   - Gemfile
   - Gemfile.lock
