@@ -10,9 +10,8 @@ minima:
   skin: dark
   social_links:
     github: TingPing
-    twitter: t1ngp1ng
     gitlab:
-      - username: TingPing
+      - username: pgriffis
         instance: gitlab.gnome.org
 disqus:
   shortname: tingping
