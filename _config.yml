@@ -4,7 +4,6 @@ author: Patrick Griffis
 email: tingping@fedoraproject.org
 url: https://blog.tingping.se
 github_username: TingPing
-google_analytics: UA-17775794-13
 timezone: America/New_York
 theme: minima
 remote_theme: jekyll/minima
