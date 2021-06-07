@@ -41,6 +41,7 @@ but it isn't a perfect benchmark as it still involves multiple hosts that don't 
 connections. HTTP/2 still has the slight lead, again versus HTTP/1's best case.
 
 ![inspector screenshot using http2](/images/youtube-http2.png)
+
 ![inspector screenshot using http1](/images/youtube-http1.png)
 
 ## Testing
@@ -52,4 +53,4 @@ work with NVidia drivers).
 You can get useful debug output both through the WebKit inspector (ctrl+shift+i) and
 by running with `--env='G_MESSAGES_DEBUG=libsoup-http2;nghttp2'`.
 
-Please report any bugs you find to https://gitlab.gnome.org/gnome/libsoup/issues
+Please report any bugs you find to [https://gitlab.gnome.org/gnome/libsoup/issues](https://gitlab.gnome.org/gnome/libsoup/issues).
