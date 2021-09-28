@@ -11,7 +11,7 @@ Visit [Donate](/donate) if you would like to support me.
 Here are some links to other things I do or have created:
 
 ## Projects I maintain
-= [libsoup](https://gitlab.gnome.org/gnome/libsoup)
+- [libsoup](https://gitlab.gnome.org/gnome/libsoup)
 - [HexChat](https://hexchat.github.io)
 - [Pithos](https://pithos.github.io)
 - [Transmission-Remote-Gnome](https://github.com/TingPing/transmission-remote-gnome)
