@@ -11,6 +11,7 @@ Visit [Donate](/donate) if you would like to support me.
 Here are some links to other things I do or have created:
 
 ## Projects I maintain
+= [libsoup](https://gitlab.gnome.org/gnome/libsoup)
 - [HexChat](https://hexchat.github.io)
 - [Pithos](https://pithos.github.io)
 - [Transmission-Remote-Gnome](https://github.com/TingPing/transmission-remote-gnome)
@@ -20,12 +21,13 @@ Here are some links to other things I do or have created:
 - [libsexy3](https://tingping.github.io/libsexy3/)
 
 ## Projects I contribute to
+- [GLib](https://github.com/gnome/glib)
+- [GLib-Networking](https://github.com/gnome/glib-networking)
+- [Flatpak](https://github.com/flatpak/flatpak)
 - [Gnome-Builder](https://wiki.gnome.org/Apps/Builder)
 - [Gnome-MPV](https://github.com/gnome-mpv/gnome-mpv)
 - [Meson](https://github.com/mesonbuild/meson)
 - [Lutris](https://github.com/lutris/lutris)
-- [Flatpak](https://github.com/flatpak/flatpak)
-- [GLib](https://github.com/gnome/glib)
 
 ## Packages
 - [Flatpak Packages](https://github.com/TingPing/flatpak-packages)
