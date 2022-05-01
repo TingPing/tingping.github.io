@@ -98,7 +98,7 @@ While not required you also should install appstream metainfo for easy discover-
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="addon">
   <id>io.github.Hexchat.Plugin.Perl</id>
-  <extends>io.github.Hexchat.desktop</extends>
+  <extends>io.github.Hexchat</extends>
   <name>Perl Plugin</name>
   <summary>Provides a scripting interface in Perl</summary>
   <url type="homepage">https://hexchat.github.io/</url>
