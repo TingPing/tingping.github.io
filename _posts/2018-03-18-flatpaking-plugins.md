@@ -20,7 +20,7 @@ application as a way to insert any optional bits. So lets see how to define one 
   "app-id": "io.github.Hexchat",
   "add-extensions": {
     "io.github.Hexchat.Plugin": {
-      "version": "2",
+      "version": "20.08",
       "directory": "extensions",
       "add-ld-path": "lib",
       "merge-dirs": "lib/hexchat/plugins",
@@ -44,7 +44,7 @@ The exact details of these are best documented in the Extension section of `man 
 but I'll go over the ones used here:
 
 - `io.github.Hexchat.Plugin` is the name of the extension point and all extensions will have the same prefix. 
-- `version` allows you to have parallel installations of extensions if you break ABI or API for example, `2` refers to HexChat 2.x incase it makes a `3.0` with an API break (It is probably smart in the future to add the runtime version here also since it will break ABI also).
+- `version` allows you to have parallel installations of extensions if you break ABI or API for example, `20.08` refers to the runtime used as each runtime is a major ABI break.
 - `directory` sets a subdirectory where everything is mounted relative to your prefix so `/app/extensions` is
 where they will go.
 - `subdirectories` allows you to have multiple extensions and each one will get their own subdirectory. So `io.github.Hexchat.Plugin.Perl` is mounted at `/app/extensions/Perl`.
@@ -58,10 +58,10 @@ So now that we defined an extension point lets make an extension:
 ```json
 {
   "id": "io.github.Hexchat.Plugin.Perl",
-  "branch": "2",
+  "branch": "20.08",
   "runtime": "io.github.Hexchat",
   "runtime-version": "stable",
-  "sdk": "org.gnome.Sdk//3.26",
+  "sdk": "org.gnome.Sdk//42",
   "build-extension": true,
   "separate-locales": false,
   "appstream-compose": false,
