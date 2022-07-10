@@ -65,9 +65,6 @@ You can install the development release and test it like so:
 flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo
 flatpak install gnome-nightly org.gnome.Epiphany.Devel
 flatpak run --command=gsettings org.gnome.Epiphany.Devel set org.gnome.Epiphany.web:/org/gnome/epiphany/web/ enable-webextensions true
-
-# Due to a temporary bug you need to run this:
-mkdir -p ~/.var/app/org.gnome.Epiphany.Devel/data/epiphany/web_extensions/
 ```
 
 You will now see **Extensions** in Epiphany's menu and if you run it from the terminal it will print out any message logged by extensions for debugging. You can download extensions most easily from [Mozilla's website](https://addons.mozilla.org/en-US/firefox/extensions/).
