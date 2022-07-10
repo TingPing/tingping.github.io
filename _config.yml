@@ -13,8 +13,6 @@ minima:
     gitlab:
       - username: pgriffis
         instance: gitlab.gnome.org
-disqus:
-  shortname: tingping
 markdown: kramdown
 plugins:
   - jekyll-sitemap
