@@ -24,6 +24,8 @@ Here are some links to other things I do or have created:
 - [GLib](https://github.com/gnome/glib)
 - [GLib-Networking](https://github.com/gnome/glib-networking)
 - [Flatpak](https://github.com/flatpak/flatpak)
+- [Epiphany](https://gitlab.gnome.org/gnome/epiphany)
+- [WebKit](https://github.com/WebKit/WebKit)
 - [Gnome-Builder](https://wiki.gnome.org/Apps/Builder)
 - [Gnome-MPV](https://github.com/gnome-mpv/gnome-mpv)
 - [Meson](https://github.com/mesonbuild/meson)
