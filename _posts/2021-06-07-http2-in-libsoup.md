@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTTP/2 in libsoup3, WebKitGTK, and Epiphany
-tags: [gnome, igalia]
+tags: [gnome, igalia, webkit]
 ---
 
 The latest development release of libsoup 3, 2.99.8, now enables HTTP/2 by default.

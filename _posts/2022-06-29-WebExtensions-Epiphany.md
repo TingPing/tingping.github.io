@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WebExtension Support in Epiphany
-tags: [gnome, igalia]
+tags: [gnome, igalia, webkit]
 ---
 
 I'm excited to help bring WebExtensions to [Epiphany](https://wiki.gnome.org/action/show/Apps/Web) (GNOME Web) thanks to investment from my employer [Igalia](https://igalia.com). In this post, I'll go over a summary of how extensions work and give details on what Epiphany supports.

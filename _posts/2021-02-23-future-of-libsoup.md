@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Future of libsoup
-tags: [gnome, igalia]
+tags: [gnome, igalia, webkit]
 ---
 
 The libsoup library implements HTTP for the GNOME platform and is used by a wide range of projects
