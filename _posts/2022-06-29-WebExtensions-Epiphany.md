@@ -41,6 +41,7 @@ Epiphany 43.alpha supports the basic structure described above. We are currently
 As of today, we support the majority of:
 
 - `alarms` - Scheduling of events to trigger at specific dates or times.
+- `commands` - Keyboard shortcuts.
 - `cookies` - Management and querying of browser cookies.
 - `downloads` - Ability to start and manage downloads.
 - `menus` - Creation of context menu items.
