@@ -6,11 +6,11 @@ tags: [gnome, flatpak]
 
 There seems to be a lot of misinformation and low quality content out there on how to use a theme with Flatpak. So I'm going to break down how it all works.
 
-## Clients
+### Clients
 
 Before we talk about Flatpak we have to talk about how GTK3 itself decides what theme you use.
 
-### Wayland
+#### Wayland
 
 If you use Wayland this is very simple. It talks to `xdg-desktop-portal-gtk` to get your theme name from the host. The setting location on the host is in GSettings:
 
@@ -20,17 +20,17 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 
 `gnome-tweaks` sets this value for you, so I'd recommend just using it. Other desktop tools *may* set this value in their respecting settings applications.
 
-### X11
+#### X11
 
 If you are on X11 it relies upon a standard known as [XSettings](https://www.freedesktop.org/wiki/Specifications/xsettings-spec/). How to configure this is less straightforward. On GNOME it uses `gsd-xsettings` as part of the `gnome-settings-daemon` project and it reads the GSettings value discussed above.
 
 If you use a different daemon like `xsettingsd` you have to set `Net/ThemeName` in its configuration file. Other desktops may have their own daemon that need to be configured.
 
-## Getting themes inside of Flatpak
+### Getting themes inside of Flatpak
 
 Now that your theme is actually configured properly you need to get the theme files inside of flatpak. You often can run a single command, `flatpak update` and everything will work now. It reads the GSetting discussed above and downloads a packaged theme.
 
-### Not packaged themes
+#### Not packaged themes
 
 If no package for the theme was found a common direction people go in is modifying permissions to add folders to the sandbox. I don't recommend this. Instead here is how you package your theme.
 
