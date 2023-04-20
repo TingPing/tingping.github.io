@@ -18,7 +18,7 @@ If you use Wayland this is very simple. It talks to `xdg-desktop-portal-gtk` to 
 gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 ```
 
-`gnome-tweaks` sets this value for you, so I'd recommend just using it. Other desktop tools *may* set this value in their respecting settings applications.
+`gnome-tweaks` sets this value for you, so I'd recommend just using it. Other desktop tools *may* set this value in their respective settings applications.
 
 #### X11
 
