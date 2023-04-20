@@ -5,7 +5,8 @@ email: tingping@fedoraproject.org
 url: https://blog.tingping.se
 github_username: TingPing
 timezone: America/New_York
-remote_theme: jekyll/minima@master
+# Upstream broke in https://github.com/jekyll/minima/pull/686 (on purpose until 3.0?)
+remote_theme: jekyll/minima@fdc3aba23a1d59ad1d1f65f505693848c4b82fdf
 minima:
   skin: dark
   social_links:
