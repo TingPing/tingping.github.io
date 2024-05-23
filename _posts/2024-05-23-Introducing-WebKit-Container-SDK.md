@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing the WebKit Container SDK
-tags: [webkit]
+tags: [igalia, webkit]
 ---
 
 Developing [WebKitGTK](https://webkitgtk.org) and [WPE](https://wpewebkit.org/) has always had challenges such as the amount of dependencies or it's fairly complex C++ codebase which not all compiler versions handle well. To help with this we've made a new SDK to make it easier.
