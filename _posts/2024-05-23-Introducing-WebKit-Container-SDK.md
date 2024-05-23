@@ -20,7 +20,7 @@ The new SDK tries to take a middle ground between those two alternatives, isolat
 
 At the core it is an Ubuntu OCI image with all of the dependencies and tooling needed to work on WebKit. On top of this we added some scripts to run/manage these containers with podman and aid in developing inside of the container. It's intention is to be as simple as possible and not change traditional development workflows. 
 
-You can find the SDK and follow the quickstart guide on our GitHub: https://github.com/Igalia/webkit-container-sdk
+You can find the SDK and follow the quickstart guide on our GitHub: [https://github.com/Igalia/webkit-container-sdk](https://github.com/Igalia/webkit-container-sdk)
 
 The main requirements is that this only works on Linux with podman 4.0+ installed. For example Ubuntu 23.10+.
 
